@@ -3,9 +3,6 @@
 VENV_DIR="pvenv"
 REQUIREMENTS="requirements.txt"
 
-#Download dataset
-source scripts/data_download.sh
-
 if [ -d $VENV_DIR ] && [ -f "$VENV_DIR/bin/activate" ]
 then
     echo "Venv already exists."
