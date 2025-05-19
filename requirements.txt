@@ -7,3 +7,4 @@ kagglehub
 scipy
 scikit-image
 MoviePy
+scikit-learn
